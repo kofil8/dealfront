@@ -2,6 +2,7 @@
   "name": "dealfront-scraper",
   "version": "1.0.0",
   "description": "Resumable, auto-paginated Dealfront contacts scraper",
+  "author": "Engr. Mohammed Kofil",
   "main": "dist/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
