@@ -1,0 +1,19 @@
+{
+  "name": "dealfront-scraper",
+  "version": "1.0.0",
+  "description": "Resumable, auto-paginated Dealfront contacts scraper",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^24.25.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
